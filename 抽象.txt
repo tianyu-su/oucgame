@@ -1,0 +1,14 @@
+Role: id, pos   
+	
+	-> AttackableRole: life:int, power:int , exp:int, level:int, money:int, protectPower:int
+				-> Player:  Bag:class, miss:int, skillList:static int[], moveSpeed:int
+
+				-> Monster: item:Item	
+	-> UnattackableRole: shop:Container
+
+Item: id:string, value:int
+		-> Equipment: power:int, consume:int, protectPower:int, movePower:int
+		-> Drug: type:char, weight:int
+
+
+Container: capacity:int, goods:Item[]

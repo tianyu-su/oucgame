@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Attackable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleColorl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Drug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Unattackable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Attackable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleColorl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Drug.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Role.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Unattackable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MapOne.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="MapOneData.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="MapThree.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="MapThreeData.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="MapTwo.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="MapTwoData.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="WelcomeMenu.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="QR.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Dragon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KnightKillTheDragon.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

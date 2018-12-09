@@ -1,2 +1,2 @@
-# oucgame
-MUD游戏
+# game
+打龙救公主
